@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.4.0",
+    "y": "^0.3.2"
+  }
+}

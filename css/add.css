@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background: purple;
+    color: white;
+}
+
+.icon{
+    width: 30%;
+   display: flex;
+   font-size: 2rem;
+   justify-content: center;
+   justify-content: space-around;
+   align-items: center;
+}
+
+header nav ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+header nav ul li{
+    list-style: none;
+    background: blue;
+    padding: 12px;
+    font-size: x-large;
+    border-radius: 19px;
+}
+header nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    /* background: blue; */
+}
+header nav ul li:hover{
+    background: rgb(68, 174, 209);
+    color: black;
+}
+
+main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(226, 90, 192),rgb(81, 81, 204));
+}
+.form {
+    background: #ffffff82;
+    width: 18%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 66px;
+    font-size: 1.25rem;
+}
+#add{
+    width: 52%;
+    position: relative;
+    left: 38px;
+    background: linear-gradient(#26ffff, #0f7777);
+    border: none;
+    border-radius: 18px;
+    height: 33px;
+    color: #fff;
+}
+
