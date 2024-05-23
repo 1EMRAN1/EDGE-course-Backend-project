@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/add.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="icon">
+                <img src="/img/hamburger.png" alt="logo" srcset="">
+                <h1>StudentSync</h1>
+            </div>
+            <ul>
+                <li id="home"><a href="/home">Home</a></li>
+                <li id="signup"><a href="/add">Add Students</a></li>
+                <li id="search"><a href="/search">Search</a></li>
+                <li id="login"><a href="/">Login</a></li>
+                <li id="signup"><a href="/signup">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form">
+            <form action="/add" method="post">
+                <h2>Add Students</h2>
+                <br>
+                <div class="inputBox">
+                    <p>Name:</p>
+                    <input type="text" id="username" name="username" placeholder="your username" class="box" required>
+                    <i></i>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <p>Id:</p>  
+                    <input type="number" name="id" id="id" placeholder="id" class="box" required>
+                    <i></i>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <p>Department:</p>  
+                    <input type="text" name="department" id="department" placeholder="department" class="box" required>
+                    <i></i>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <p>Phone:</p>  
+                    <input type="number" name="phone" id="phone" placeholder="phonenumber" class="box" required>
+                    <i></i>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <p>Email:</p>  
+                    <input type="text" name="email" id="email" placeholder="email" class="box" required>
+                    <i></i>
+                </div>
+                <br>
+                <button type="submit" id="add">Add to Table</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
